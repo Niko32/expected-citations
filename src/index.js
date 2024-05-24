@@ -41,8 +41,8 @@ const calcExpectedCitations = (citationCount, publicationYear) => {
   const currentYear = new Date().getFullYear()
   const yearsSincePublication = currentYear - publicationYear
 
-  const currentDateRelativeCitations = jStat.gamma.cdf(yearsSincePublication, shape, scale)
-  const futureRelativeCitations = jStat.gamma.cdf(totalYearsTimeSpan, shape, scale)
+  const currentDateRelativeCitations = jStat.gamma.cdf(yearsSincePublication, shape, scale) + loc
+  const futureRelativeCitations = jStat.gamma.cdf(totalYearsTimeSpan, shape, scale) + loc
 
   const expectedRelativeChange = futureRelativeCitations / currentDateRelativeCitations
   const expectedCitations = citationCount * expectedRelativeChange
