@@ -1,0 +1,18 @@
+{
+    "authors": [
+        {
+            "name": "Niko Konzack"
+        }
+    ],
+    "version": { "license": "MPL2.0" },
+    "categories": { "firefox": ["search-tools"] },
+    "contributions_url": "",
+    "requires_payment": false,
+    "homepage": {
+        "en-US": "http://niko-konzack.de"
+    },
+    "support_email": {
+        "en-US": "niko.konzack@t-online.de",
+        "de": "niko.konzack@t-online.de"
+    }
+}
