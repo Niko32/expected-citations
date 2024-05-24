@@ -14,5 +14,6 @@
     "support_email": {
         "en-US": "niko.konzack@t-online.de",
         "de": "niko.konzack@t-online.de"
-    }
+    },
+    "description": "Adds an expected citation count for 10 years after the publication next to the normal citations on google scholar. This makes citation counts comparable for articles with different publication dates."      
 }
